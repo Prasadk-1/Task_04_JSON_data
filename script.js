@@ -58,7 +58,7 @@ const UserList = document.querySelector('.flag-display');
  
    const result = JSON.parse(data)
    .forEach((user) => {
-    UserList.innerHTML += `<img class="user-pic" src="${user.flag}"/>`
+    UserList.innerHTML += `<div><img class="user-pic" src="${user.flag}"/><div>`
 })
    console.log(result);
 }
