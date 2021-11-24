@@ -14,7 +14,7 @@ const getCountries = () => {
   const xhr = new XMLHttpRequest();
 
 
-xhr.open('GET', 'https://restcountries.com/v3.1/all');
+xhr.open('GET', 'https://restcountries.com/v3.1/name/india');
 xhr.response = "json";
 
 xhr.send();
