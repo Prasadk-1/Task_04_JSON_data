@@ -14,7 +14,7 @@ const getCountries = () => {
   const xhr = new XMLHttpRequest();
 
 
-xhr.open('GET', 'https://restcountries.eu/rest/v2/all');
+xhr.open('GET', 'https://restcountries.com/v3.1/all');
 xhr.response = "json";
 
 xhr.send();
@@ -44,7 +44,7 @@ const getflags = () => {
   const xhr = new XMLHttpRequest();
 
 
-xhr.open('GET', 'https://restcountries.eu/rest/v2/all');
+xhr.open('GET', 'https://restcountries.com/v3.1/all');
 xhr.response = "json";
 
 xhr.send();
